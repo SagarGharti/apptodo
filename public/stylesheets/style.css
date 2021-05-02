@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: white;
+}
+.crud-navbar{
+    background:#ba68ca;
+    text-align: center;
+    height:50px;
+}
+.newuser{
+    margin-right: 90%;
+    margin-top:-16px;
+}
+.todo-container {
+    color: black;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    padding: 20px;
+    width: 600px;
+    height:70%;
+    transform: translate(-50%,-50%);
+    background: rgba(172, 10, 10, 0.1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.todo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap:15px;
+}
+form{
+    width:100%;
+}
+.todo input{
+    width: 100%;
+}
+.content{
+    width: 100%;
+}
+
+.todos{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+.todos h4{
+    width:100%;
+}
+.add{
+    border: none;
+    padding: 0 .5rem;
+    background: blue;
+    color: white;
+    border-radius: .2em;
+    font-size: .8rem;
+}
+button{
+    border: none;
+    margin-left:10px;
+    padding: 0 .5rem;
+    background: red;
+    color: white;
+    border-radius: .2em;
+    font-size: .8rem;
+}
+.edit{
+    border: none;
+    padding: 0 .5rem;
+    background: green;
+    color: white;
+    border-radius: .2em;
+    font-size: .8rem;
+}
+
+
+
+
+
